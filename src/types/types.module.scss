@@ -17,6 +17,25 @@ textarea{
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.title{
+  display: flex;
+  width: 300px;
+  height: 50px;
+padding: 10px 10px;
+border-radius: 5px;
+background: linear-gradient(180deg,  #885FFF 0%, #C460B9 50%, #FF6174 100%);
+box-shadow: 0px 0px 10px 1px #aaaaaa;
+border-style: none;
+color: #ffffff;
+text-align: center;
+font-family: Ubuntu;
+font-size: 30px;
+font-style:normal;
+line-height: 25px; /* 125% */
+resize: none;  
+margin-top: 10px;
+margin-bottom: 10px;
+}
 h4{
   display: inline;
   padding: 0px 30px;

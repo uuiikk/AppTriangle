@@ -51,11 +51,8 @@ function App() {
   return (
     <div className={styles.background}>
       <div>
-        <textarea
-          readOnly
-          value={"Введите длины сторон треугольника"}
-        ></textarea>
-        <p className={styles.warning}>Только целые числа! (1 ⩽ x ⩽ 100)</p>
+        <div className={styles.title}> Введите длины сторон треугольника</div>
+        <div className={styles.warning}>Только целые числа! (1 ⩽ x ⩽ 100)</div>
         <Input
           name="A:"
           value={valueA == 0 ? NaN : valueA >= 100 ? 100 : valueA}
