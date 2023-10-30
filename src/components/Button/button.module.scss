@@ -1,0 +1,47 @@
+.buttonChecked{
+  display:flex;
+  width: 150px;
+  height: 50px;
+  padding: 0px 10px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #FF6174 0%, #C460B9 50%, #885FFF 100%);
+  box-shadow: 0px 0px 10px 1px #aaaaaa;
+  border-style: none;
+  color: #ffffff;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 10px; /* 125% */
+  margin-right: 10px;
+}
+.buttonReset{
+  display:flex;
+  width: 150px;
+  height: 50px;
+  padding: 0px 10px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #FF6174 0%, #C460B9 50%, #885FFF 100%);
+  box-shadow: 0px 0px 10px 1px #aaaaaa;
+  border-style: none;
+  color: #ffffff;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 10px; /* 125% */
+  margin-left: 10px;
+}
+.div{
+  display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
