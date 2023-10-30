@@ -52,7 +52,7 @@ function App() {
     <div className={styles.background}>
       <div>
         <textarea
-          disabled
+          readOnly
           value={"Введите длины сторон треугольника"}
         ></textarea>
         <p className={styles.warning}>Только целые числа! (1 ⩽ x ⩽ 100)</p>
